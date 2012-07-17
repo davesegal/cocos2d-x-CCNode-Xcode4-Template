@@ -18,14 +18,14 @@ ___FILEBASENAMEASIDENTIFIER___::~___FILEBASENAMEASIDENTIFIER___()
     
 }
 
-___FILEBASENAMEASIDENTIFIER___* ___FILEBASENAMEASIDENTIFIER___::node()
+___FILEBASENAMEASIDENTIFIER___* ___FILEBASENAMEASIDENTIFIER___::create()
 {
     ___FILEBASENAMEASIDENTIFIER___* pRet = new ___FILEBASENAMEASIDENTIFIER___();
 	if (pRet && pRet->init()) {
 		pRet->autorelease();
 		return pRet;
 	} else {
-	    CC_SAFE_DELETE(pRet)
+	    CC_SAFE_DELETE(pRet);
 	    return NULL;
     }
 }

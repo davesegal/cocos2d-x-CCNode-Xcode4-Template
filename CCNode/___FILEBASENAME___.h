@@ -19,7 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___ : public ___VARIABLE_cocos2DXSubclass___
 public:
     ___FILEBASENAMEASIDENTIFIER___();
     virtual ~___FILEBASENAMEASIDENTIFIER___();
-    static ___FILEBASENAMEASIDENTIFIER___* node();
+    static ___FILEBASENAMEASIDENTIFIER___* create();
     bool init();
 
 };
