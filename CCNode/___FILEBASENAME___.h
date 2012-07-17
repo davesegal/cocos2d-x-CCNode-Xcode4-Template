@@ -11,9 +11,8 @@
 
 #include "cocos2d.h"
 
-using namespace cocos2d;
 
-class ___FILEBASENAMEASIDENTIFIER___ : public ___VARIABLE_cocos2DXSubclass___ 
+class ___FILEBASENAMEASIDENTIFIER___ : public cocos2d::___VARIABLE_cocos2DXSubclass___ 
 {
     
 public:
@@ -21,6 +20,12 @@ public:
     virtual ~___FILEBASENAMEASIDENTIFIER___();
     static ___FILEBASENAMEASIDENTIFIER___* create();
     bool init();
+
+protected:
+	
+
+private:
+	
 
 };
 #endif
